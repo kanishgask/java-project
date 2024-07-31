@@ -1,0 +1,30 @@
+package userproject;
+
+public class userproject {
+    private String name;
+    private int age;
+    private String bloodType;
+    private String contactInfo;
+
+    public userproject(String name, int age, String bloodType, String contactInfo) {
+        this.name = name;
+        this.age = age;
+        this.bloodType = bloodType;
+        this.contactInfo = contactInfo;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getBloodType() {
+        return bloodType;
+    }
+
+    public String getContactInfo() {
+        return contactInfo;
+    }
